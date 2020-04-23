@@ -1,8 +1,10 @@
 # EBMS
 
-Siegel et al. [35] presented the original energy-banding
+[Siegel et al.](https://www.sciencedirect.com/science/article/pii/S0010465513003366)
+presented the original energy-banding
 (EB) algorithm for OpenMC, a distributed Monte Carlo (MC)
-neutron-transport code. Felker et al. [20] extended the EB
+neutron-transport code. [Felker et al.](https://www.researchgate.net/publication/269230673_The_energy_band_memory_server_algorithm_for_parallel_Monte_Carlo_transport_calculations)
+extended the EB
 idea to distributed-memory machines by distributing the
 cross-section data (composed of energy bands) across multiple
 nodes. Rather than the domain, particles are evenly distributed
